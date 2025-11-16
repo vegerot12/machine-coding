@@ -1,0 +1,40 @@
+ .tooltip-item{
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+.tooltip-item:hover .tooltip{
+   
+   
+    top: -40px;
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    left: -70%;
+
+
+} 
+.tooltip{
+   
+    
+    visibility: none;
+    display: none;
+
+} 
+
+.tooltip-container{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+    
+}
