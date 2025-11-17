@@ -1,7 +1,6 @@
-import Tooltip from "./components/tooltip/tooltip";
-
+import DragAndDrop from "./components/dragAndDrop/DragAndDrop";
 export default function App() {
-  return < Tooltip/>;
+  return < DragAndDrop/>;
 }
 
 
