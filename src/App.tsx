@@ -1,6 +1,11 @@
-import DragAndDrop from "./components/dragAndDrop/DragAndDrop";
+import TicTacToe from "./components/ticTacToe/tictacToe";
+
 export default function App() {
-  return < DragAndDrop/>;
+  return (
+    <>
+      <TicTacToe />
+    </>
+  );
 }
 
 
