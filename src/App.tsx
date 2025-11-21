@@ -1,9 +1,9 @@
-import TicTacToe from "./components/ticTacToe/tictacToe";
+import Cinematicket from "./components/cinematicket/cinematicket";
 
 export default function App() {
   return (
     <>
-      <TicTacToe />
+      <Cinematicket />
     </>
   );
 }
